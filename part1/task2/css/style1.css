@@ -1,0 +1,138 @@
+body
+{
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+body p
+{
+	text-indent:2em;
+}
+
+h3{color: #999}
+h4{color: #999}
+
+article
+{
+	background: white;
+	box-shadow: 5px 5px 2px #808080;
+	margin:20px 20px;
+	padding: 30px;
+	/*border:5px solid red;注意shadow和border的区别*/
+}
+
+.head
+{
+	background: #333;
+	height: 70px;
+	font-size: 10px;
+	padding: 10px 30px 5px;
+	margin: 0;
+}
+
+.head ul
+{
+	display: inline;
+}
+
+.head li
+{
+	text-indent:0em;
+	float: right;
+}
+
+.head a
+{
+	color: #fff;
+	text-align: right;
+	font-size: 20px;
+}
+
+.bottom
+{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0 40px;
+}
+
+.picword div 
+{
+	margin: 20px;
+	padding: 20px 10px;
+	text-align: center;
+	width: 400px;
+	border:5px solid #ccc;
+}
+
+.picword div img
+{
+	width: 80%;
+	margin: 5px;
+}
+
+.table1 thead td
+{
+	background: #000;
+	color: #fff;
+}
+
+.table1
+{
+	border-collapse: collapse;
+}
+.table1 td
+{
+	padding: 5px;
+	border:1px solid #ccc;
+}
+
+.table1 tr:last-child
+{background: #ccc;}
+
+.forminput
+{
+	width: 100%;
+}
+
+.forminput td
+{
+	padding: 5px;
+}
+
+.forminput td:first-child
+{
+	text-align: right;
+}
+
+.forminput tr:last-child
+{
+	text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
